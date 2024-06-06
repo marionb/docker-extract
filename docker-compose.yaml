@@ -1,3 +1,6 @@
+volumes:
+    extract_db_data:
+
 services:
     pgsql:
         image: postgres:12-alpine
